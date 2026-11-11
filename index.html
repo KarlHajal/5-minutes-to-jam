@@ -1,0 +1,124 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>5 Minutes to Jam</title>
+    <link rel="stylesheet" href="css/deck.css" />
+    <link rel="stylesheet" href="css/slides.css" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <div id="stage">
+      
+      <section class="slide" data-id="music-title" data-part="music" data-piano>
+        <h1 style="margin-bottom: 20px">5 Minutes to Jam</h1>
+        <p class="soft" style="font-size: 32px; max-width: 1150px">
+          Goal: get non-musicians to play around on a piano in 5 minutes
+        </p>
+        <div class="grow"></div>
+        <div class="kbd-host"></div>
+        <p class="hint" style="margin-top: 16px">Try it: click the keys, or type <kbd>A</kbd> <kbd>W</kbd> <kbd>S</kbd> <kbd>E</kbd> <kbd>D</kbd> <kbd>F</kbd> <kbd>T</kbd> <kbd>G</kbd> <kbd>Y</kbd> <kbd>H</kbd> <kbd>U</kbd> <kbd>J</kbd> <kbd>K</kbd></p>
+      </section>
+
+<section class="slide" data-id="notes12" data-part="music" data-piano data-steps="3">
+        <h2>Musical Notes</h2>
+        <div class="row" style="align-items: flex-start; justify-content: space-between">
+          <div class="col notes-explanation" style="flex: 1; font-size: 26px; gap: 12px">
+            <div data-s="1">Western music uses 12 notes, repeated across the keyboard</div>
+            <div data-s="2">White keys: <b>C D E F G A B</b>, also called <b>Do Ré Mi Fa Sol La Si</b>.</div>
+            <div data-s="3">Black keys: <b>sharp ♯</b> or <b>flat ♭</b> notes.</div>
+          </div>
+          <div class="seg" data-solf-toggle><button data-v="abc" class="on">C D E</button><button data-v="solf">Do Ré Mi</button></div>
+        </div>
+        <div class="counter"></div>
+        <div class="grow"></div>
+        <div class="kbd-host"></div>
+      </section>
+
+<section class="slide" data-id="semis" data-part="music" data-piano data-steps="2">
+        <h2>Semitones</h2>
+        <p class="readout">Neighbouring keys are one semitone apart.</p>
+        <div class="grow"></div>
+        <div class="kbd-host"></div>
+      </section>
+
+<section class="slide" data-id="chords" data-part="music" data-piano data-steps="6">
+        <h2>Major and Minor chords</h2>
+        <div class="stack">
+          <div class="formula" data-only="1,2,3">Major: root + 4 + 3</div>
+          <div class="formula" data-s="4">Minor: root + 3 + 4</div>
+        </div>
+        <div class="readout" style="margin-top: 18px"></div>
+        <div class="grow"></div>
+        <div class="kbd-host"></div>
+      </section>
+
+<section class="slide" data-id="scale" data-part="music" data-piano data-steps="3">
+        <h2>Major and Minor Scales</h2>
+        <p class="soft small">A scale is a consecutive series of notes that form a progression between one note and its octave.</p>
+        <div class="row" style="align-items: center; justify-content: space-between">
+          <div class="readout"></div>
+          <div class="seg" data-q><button data-v="major" class="on">Major</button><button data-v="minor">Minor</button></div>
+        </div>
+        <div class="grow"></div>
+        <div class="kbd-host"></div>
+      </section>
+
+<section class="slide" data-id="diatonic" data-part="music" data-piano data-steps="1">
+        <h2>Chords in C major</h2>
+        <p class="soft small">Chords in a key are built from the notes of its scale.</p>
+        <p class="soft small">These chords use only notes from the C major scale.</p>
+        <div class="cards">
+          <div class="dcard maj"><div class="nm">C</div><div class="rn">I</div></div>
+          <div class="dcard min"><div class="nm">Dm</div><div class="rn">ii</div></div>
+          <div class="dcard min"><div class="nm">Em</div><div class="rn">iii</div></div>
+          <div class="dcard maj"><div class="nm">F</div><div class="rn">IV</div></div>
+          <div class="dcard maj"><div class="nm">G</div><div class="rn">V</div></div>
+          <div class="dcard min"><div class="nm">Am</div><div class="rn">vi</div></div>
+          <div class="dcard dim"><div class="nm">B°</div><div class="rn">vii°</div></div>
+          <div class="dcard maj"><div class="nm">C</div><div class="rn">I</div></div>
+        </div>
+        <div class="grow"></div>
+        <div class="kbd-host"></div>
+      </section>
+
+<section class="slide" data-id="jam" data-part="music" data-piano>
+        <h2>Jam Time!</h2>
+        <p class="soft" style="font-size: 30px">Chords of a key combine with notes of its scale</p>
+        <div class="row" style="align-items: center; gap: 26px">
+          <div class="cards" style="width: 560px">
+            <div class="jcard maj"><div class="nm">C</div><div class="rn">I</div></div>
+            <div class="jcard maj"><div class="nm">G</div><div class="rn">V</div></div>
+            <div class="jcard min"><div class="nm">Am</div><div class="rn">vi</div></div>
+            <div class="jcard maj"><div class="nm">F</div><div class="rn">IV</div></div>
+          </div>
+          <div class="col" style="gap: 12px">
+            <div class="row" style="gap: 14px; align-items: center">
+              <button class="b" data-act="play">Start Jam</button>
+              <div class="seg" data-key>
+                <button data-v="0" class="on">C</button><button data-v="7">G</button><button data-v="2">D</button><button data-v="5">F</button>
+              </div>
+            </div>
+            <label class="ctl">Tempo <input type="range" min="60" max="140" value="108" /></label>
+          </div>
+        </div>
+        <div class="grow"></div>
+        <div class="kbd-host"></div>
+      </section>
+
+      
+      <div id="chrome"><span class="part"></span><span class="bar"></span><span class="num"></span></div>
+    </div>
+
+    <div id="overview"></div>
+    <div id="notesbox"></div>
+    <div id="presenter"></div>
+
+    <script src="js/deck.js"></script>
+    <script src="js/music.js"></script>
+    <script>
+      Deck.init()
+    </script>
+  </body>
+</html>

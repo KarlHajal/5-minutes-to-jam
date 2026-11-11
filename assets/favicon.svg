@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img">
+  <title>Piano</title>
+  <rect x="3" y="10" width="58" height="44" rx="5" fill="#f8f8f5" stroke="#292d32" stroke-width="4"/>
+  <path d="M17 12V52M32 12V52M47 12V52" stroke="#292d32" stroke-width="2"/>
+  <path d="M12 11H22V35Q22 38 19 38H15Q12 38 12 35ZM27 11H37V35Q37 38 34 38H30Q27 38 27 35ZM42 11H52V35Q52 38 49 38H45Q42 38 42 35Z" fill="#292d32"/>
+</svg>
